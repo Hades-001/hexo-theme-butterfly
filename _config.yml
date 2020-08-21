@@ -20,7 +20,7 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light # default / darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: default # default / darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -176,7 +176,7 @@ toc:
 
 post_copyright:
   enable: true
-  decode: true
+  decode: false
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -195,7 +195,7 @@ reward:
 related_post:
   enable: true
   limit: 6 # Number of posts displayed
-  date_type: created # or created or updated 文章日期顯示創建日或者更新日
+  date_type: updated # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
 photofigcaption: false
@@ -378,8 +378,8 @@ footer:
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: false
-    url:
-    text:
+    url: https://beian.miit.gov.cn/
+    text: 鄂ICP备17017044号-2
     icon: /img/icp.png
 
 # Analysis
@@ -539,7 +539,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -606,7 +606,7 @@ aside:
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
-    sort: date # date or updated
+    sort: updated # date or updated
   card_categories:
     enable: true
     limit: 8 # if set 0 will show all
