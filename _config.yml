@@ -377,7 +377,7 @@ footer:
   custom_text: 
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
-    enable: false
+    enable: true
     url: https://beian.miit.gov.cn/
     text: 鄂ICP备17017044号-2
     icon: /img/icp.png
@@ -416,7 +416,7 @@ google_adsense:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-google_site_verification:
+google_site_verification: m3MyvVSe6xkVWXCv3fcUI8BvDaNnLqvI9aEXAWmkkrI
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
