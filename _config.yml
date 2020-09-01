@@ -371,7 +371,7 @@ footer:
     enable: true
     since: 2019
   custom_text:
-  copyright: true # Copyright of theme and framework
+  copyright: false # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: true
     url: https://beian.miit.gov.cn/
