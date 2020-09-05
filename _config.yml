@@ -370,7 +370,7 @@ footer:
   owner:
     enable: true
     since: 2019
-  custom_text:
+  custom_text: CDN BY <a target="_blank" rel="external nofollow" href="https://www.jsdelivr.com/"><b>jsDelivr</b></a> | HOST BY <a target="_blank" rel="external nofollow" href="https://cn.aliyun.com/product/oss"><b>OSS</b></a>
   copyright: false # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: true
@@ -613,7 +613,7 @@ aside:
       link: https://gitee.com/hades001
   card_announcement:
     enable: true
-    content: 如发现文章中有错误，请于评论区留言或联系hanlixiang@hades001.com。
+    content: 如发现文章中有错误，请于评论区留言或联系 <a href="mailto:hanlixiang@hades001.com">hanlixiang@hades001.com</a> ！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
