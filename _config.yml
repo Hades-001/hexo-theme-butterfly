@@ -40,7 +40,6 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-gitee: https://gitee.com/hades001 || Gitee
   fas fa-envelope: mailto:hanlixiang@hades001.com || Email
 
 # search (搜索)
@@ -348,9 +347,9 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: waline-1g3308yvdabf8d0f
-  region: ap-shanghai
-  visitor: false
+  envId: https://twikoo-api-hades001.vercel.app/
+  region:
+  visitor: true
   option:
 
 # Giscus
@@ -441,7 +440,7 @@ footer:
     icon: /img/icp.png
   GONGAN: # Chinese GONGAN License
     enable: true
-    url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42900602000141
+    url: https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42900602000141
     text: 鄂公网安备 42900602000141号
     icon: /img/gongan.png
 
@@ -677,9 +676,9 @@ aside:
     description: ~ Practice makes perfect ~
     button:
       enable: true
-      icon: fab fa-gitee
-      text: Follow Me
-      link: https://gitee.com/hades001
+      icon: fab fa-envelope
+      text: Contact Me
+      link: mailto:hanlixiang@hades001.com
   card_announcement:
     enable: true
     content: 如发现文章中有错误，请于评论区留言或联系 <a href="mailto:hanlixiang@hades001.com">hanlixiang@hades001.com</a>
