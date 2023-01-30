@@ -676,7 +676,7 @@ aside:
     description: ~ Practice makes perfect ~
     button:
       enable: true
-      icon: fab fa-envelope
+      icon: fas fa-envelope
       text: Contact Me
       link: mailto:hanlixiang@hades001.com
   card_announcement:
